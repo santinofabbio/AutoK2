@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactate con AutoK para consultar o comprar el repuesto de autos que necesites">
+    <meta name="keywords" content="REPUESTO INSUMO AUTO USADO ROTO CHOCADO ARREGLAR REPARAR BARNIZ PRIMER MASILLA MEJOR">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Contacto</title>
+</head>
+<body>
+    <nav>
+        <ul class="nav">
+            <li class=""><a href="index.html" class="nav__seccion">
+                <img src="img/logorecortado.jpeg" alt="logo" class="rounded logo" width="60px">
+            </a></li>
+            <li class="nav__seccion"><a href="sobre.html" class="seccion__item--color">Sobre</a></li>
+            <li class="nav__seccion"><a href="tienda.html" class="seccion__item--color">Tienda</a></li>
+            <li class="nav__seccion"><a href="clientes.html" class="seccion__item--color">Clientes</a></li>
+            <li class="nav__seccion"><a href="contacto.html" class="seccion__item--color">Contacto</a></li>
+            <li class="nav__seccion">
+                <div class="dropdown">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      Color
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Claro</a></li>
+                      <li><a class="dropdown-item" href="#">Oscuro</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <main class="mainContacto">
+        <h1>Contacto</h1>
+        <div class="division">
+            <div class="izq">
+                <h3>Si no encontraste el repuesto que necesitabas o tenés alguna consulta escribinos.</h3>
+                <form action="#" method="POST" enctype="application/x-www-form-urlencoded">
+                    <p>Razón:</p>
+                    <label for="consulta">Consulta</label><input type="checkbox" id="consulta">
+                    <label for="repuesto">Compra de repuesto</label><input type="checkbox" id="repuesto"><br>
+                    <div class="text">
+                        <input type="text"id="nombrecompleto" placeholder="Nombre Completo" required><br>
+                        <input type="email" id="email" placeholder="Email" required><br>
+                        <input type="text" id="direccion" placeholder="Dirección"><br>
+                        <textarea id="comentario" rows="5" placeholder="Comentario" required></textarea><br>
+                    </div>
+                    <input class="boton" type="submit" value="Enviar">
+                    <input class="boton" type="reset" value="Borrar">
+                </form>
+            </div>
+            <section class="sectionContacto">
+                <h3>Pasos a seguir:</h3>
+                <ol type="1">
+                    <li>Rellenar datos en el formulario</li>
+                    <li>Enviar y esperar alrededor de 24 hs</li>
+                    <li>Chequear la respuesta por mail y conversar desde ahí</li>
+                </ol>
+            </section>
+        </div>
+    </main>
+    <footer class="pie">
+        <div class="pie__seccionC">
+            <img src="img/Copyright.png" alt="copyright" height="14" class="seccionC__img--margin">
+            <p class="seccionC__texto--font seccionC__texto--margin">Coyright 2021. Todos los derechos reservados</p>
+        </div>
+        <div class="pie__seccionR">
+            <p class="seccionR__texto--font seccionR__texto--margin">Encontranos en todas las redes</p>
+            <img src="img/instagram.png" alt="instagram" height="14" class="seccionR__img--margin">
+            <img src="img/facebook.png" alt="facebook" height="14" class="seccionR__img--margin">
+            <img src="img/twitter.png" alt="twitter" height="14" class="seccionR__img--margin">
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+</html>
