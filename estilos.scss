@@ -45,13 +45,13 @@ nav{
     border-left: none;
     border-right: none;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: center;
     height: 400px;
     .mainIndex__secciontexto{
         width: 49%;
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: column wrap;
         align-items: center;
         .secciontexto__titulo--font{
             font: $s1 'Montserrat';
@@ -244,10 +244,28 @@ nav{
         font-family: 'Montserrat';
         text-align: justify;
     }
-    h3{
-        text-align: center;
-        font-family: sans-serif;
-        margin-bottom: 50px;
+    @media screen and (min-width: 768px){
+        h3{
+            font-size: 18px;
+            text-align: center;
+            font-family: sans-serif;
+            margin-bottom: 50px;
+        }
+    }
+    @media screen and (min-width: 992px){
+        h3{
+            font-size: 20px;
+        }    
+    }
+    @media screen and (min-width: 1200px){
+        h3{
+            font-size: 23px;
+        }
+    }
+    @media screen and (min-width: 1600px){
+        h3{
+            font-size: 28px;
+        }
     }
     h2{
         font-family: sans-serif;
