@@ -40,6 +40,10 @@ nav .nav .nav__seccion .seccion__item--border {
   border: black 1px solid;
 }
 
+nav .nav .margin {
+  margin-right: 10px;
+}
+
 .mainIndex {
   background-color: #ff6c37;
   border: solid black 1px;
@@ -161,13 +165,8 @@ nav .nav .nav__seccion .seccion__item--border {
   font: 20px sans-serif;
 }
 
-.sectionIndex .sectionIndex__imagenes .imagenes__img--height {
-  height: 20px;
-}
-
-.sectionIndex .sectionIndex__imagenes .imagenes__img--margin {
-  margin-left: 10px;
-  margin-bottom: 10px;
+.sectionIndex .sectionIndex__subtitulo--font {
+  font: 20px sans-serif;
 }
 
 .articleIndex {
@@ -560,7 +559,7 @@ nav .nav .nav__seccion .seccion__item--border {
 @media screen and (min-width: 992px) {
   .mainTienda img {
     height: auto;
-    width: 290px;
+    width: 298px;
     margin-top: 10px;
   }
 }
@@ -568,7 +567,7 @@ nav .nav .nav__seccion .seccion__item--border {
 @media screen and (min-width: 1200px) {
   .mainTienda img {
     height: auto;
-    width: 350px;
+    width: 355px;
     margin-top: 10px;
   }
 }
@@ -576,9 +575,9 @@ nav .nav .nav__seccion .seccion__item--border {
 @media screen and (min-width: 1400px) {
   .mainTienda img {
     height: auto;
-    width: 350px;
+    width: 280px;
     margin-top: 10px;
-    margin-left: 35px;
+    margin-left: 65px;
   }
 }
 
@@ -637,6 +636,10 @@ nav .nav .nav__seccion .seccion__item--border {
 .mainClientes p {
   font-family: sans-serif;
   font-size: 20px;
+}
+
+.mainClientes img {
+  height: 550px;
 }
 
 /**/
