@@ -191,8 +191,8 @@ nav .nav .margin {
 }
 
 .articleIndex img {
-  margin: 40px 0px 40px 0px;
-  width: 500px;
+  margin: 40px 10px 40px 10px;
+  height: 350px;
 }
 
 .pie {
@@ -418,7 +418,7 @@ nav .nav .margin {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
-    height: 110vh;
+    height: 1170px;
   }
   .mainSobre .text {
     display: -webkit-box;
@@ -464,7 +464,7 @@ nav .nav .margin {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
-    height: 120vh;
+    height: 1400px;
   }
   .mainSobre .text {
     display: -webkit-box;
@@ -636,10 +636,6 @@ nav .nav .margin {
 .mainClientes p {
   font-family: sans-serif;
   font-size: 20px;
-}
-
-.mainClientes img {
-  height: 550px;
 }
 
 /**/
