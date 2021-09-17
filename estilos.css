@@ -312,7 +312,7 @@ nav .nav .margin {
     margin-bottom: 30px;
     text-align: justify;
     font-family: sans-serif;
-    font-size: 28px;
+    font-size: 25px;
     width: 65%;
     font-weight: 80;
   }
@@ -394,7 +394,7 @@ nav .nav .margin {
     margin-bottom: 30px;
     text-align: justify;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     width: 65%;
     font-weight: 80;
   }
@@ -585,7 +585,6 @@ nav .nav .margin {
 .mainClientes {
   padding-top: 20px;
   padding-bottom: 30px;
-  padding-left: 5px;
   border: solid black 1px;
   border-left: none;
   border-right: none;
@@ -593,6 +592,7 @@ nav .nav .margin {
 }
 
 .mainClientes h1 {
+  margin-left: 5px;
   margin-bottom: 10px;
   font-size: 60px;
   font-family: 'Montserrat';
@@ -627,6 +627,7 @@ nav .nav .margin {
 }
 
 .mainClientes h2 {
+  margin-left: 5px;
   font-family: sans-serif;
   font-size: 32px;
   -webkit-text-decoration: #272727 solid underline;
@@ -634,6 +635,7 @@ nav .nav .margin {
 }
 
 .mainClientes p {
+  margin-left: 5px;
   font-family: sans-serif;
   font-size: 20px;
 }
